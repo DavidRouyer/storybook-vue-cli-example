@@ -11,6 +11,13 @@ import Component from 'vue-class-component';
 import { Prop } from 'vue-property-decorator';
 import { ButtonSize } from './types';
 
+const test: string | undefined = "";
+
+if (test?.toString())
+{
+  console.log(test);
+}
+
 /**
  * This is a very nice button. It comes in three sizes!
  **/
